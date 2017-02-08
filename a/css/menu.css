@@ -1,0 +1,102 @@
+/*
+ * Base
+ */
+html {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+body {
+	background-color: #656565;
+}
+
+img {
+	vertical-align: middle;
+}
+
+button {
+	outline: none;
+}
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+.page-header {
+	background-color: #fff;
+}
+
+.page-main {
+	position: relative;
+}
+
+.page-main>div {
+	padding: 50px 0 100px;
+}
+
+.page-main>div h2 {
+	color: #fff;
+	text-align: center;
+	margin: 0 0 50px;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+}
+
+#buttons1 {
+	background-color: #b3d4fc;
+}
+
+#buttons1 .inner {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#buttons1 button {
+	display: block;
+	_display: block;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 224px;
+	height: 80px;
+	margin: 0 10px 20px;
+	padding: 0;
+	font-size: 16px;
+	letter-spacing: 0.15em;
+	color: #b3d4fc;
+	background-color: #fff;
+	border: none;
+}
+
+.page-footer {
+	background-color: #b3d4fc;
+}
+
+.page-footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*
+ * Helpers
+ */
+
+/* Clearfix */
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+	_display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
